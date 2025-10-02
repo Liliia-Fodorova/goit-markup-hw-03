@@ -3,7 +3,53 @@
     background-color:#ffffff;
     color: #434455
 }
-.logo-web{
+
+/* reset */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+    /* common */
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+/* header */
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
     font-weight: 700 ;
     font-family:"Raleway", sans-serif;
     font-size: 18px;
@@ -12,16 +58,21 @@
     text-transform: uppercase;       
     color: #4d5ae5;
 }
-.logo-studio{
-    font-weight: 700 ;
-    font-size: 18px;
-    line-height: 1.17;
-    font-family: "Raleway",sans-serif;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.header-logo{
+    padding: 24px 0px;
+    margin: 0px 76px 0px 0px;
+}
+.header-logo .logo-studio{
     color: #2e2f42;
 }
+
+.footer-logo .logo-studio {
+    color: #f4f4fd;
+}
+
 .link{
+    display: block;
+    padding: 24px 0;
     font-weight: 500 ;
     font-size: 16px;
     line-height: 1.5;
@@ -33,6 +84,8 @@
     color: #404bbf;
 }
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
@@ -48,6 +101,12 @@
 }
 .contacts{
     font-style: normal;
+    margin-left: auto;
+}
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 /* hero */
@@ -129,9 +188,6 @@
 
 }
 
-a{
- text-decoration: none; 
-}
 
 .our-portfolio{
     font-weight: 700 ;
@@ -153,21 +209,11 @@ a{
 .page-footer{
     background-color: #2e2f42;
 }
-.footer-logo-studio{
-    font-weight: 700 ;
-    font-size:  18px;
-    line-height:  1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-}
+
 .text-footer{
     font-weight: 400;
     font-size:  16px;
     line-height:   1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-ul{
-    list-style-type: none;
 }
