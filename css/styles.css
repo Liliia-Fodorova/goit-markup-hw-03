@@ -259,8 +259,7 @@ a {
     text-transform: capitalize;
 }
 .team-card{
-    width: 264px;
-    height: 380px;
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     padding-block: 0px 32px;
     padding-inline: 0px;
@@ -270,8 +269,7 @@ a {
     background-color: #ffffff;
     overflow: hidden;
 }
-.product-ill img{
-    display: block;
+.product-ill{
     width: 100%;
     height: auto;
 }
@@ -315,7 +313,7 @@ a {
     text-align: center;
     text-transform: capitalize;
 }
-.container-portfolio{
+.portfolio-container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
 }
@@ -330,6 +328,7 @@ a {
     margin-left: 0;
     padding: 0;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item{
@@ -339,20 +338,10 @@ a {
     text-align: left;
 }
 
-.portfolio-card img{
-    display: block;
-    width: 100%;
-}
-
-.portfolio-content{
-  bottom: 1px solid #e7e9fc;
-  padding: 32px 16px;
-}
-
 .title-portfolio{
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 8px;
+    margin-bottom: 32px 0 8px 16px;
 }
 
 .text-portfolio{
@@ -372,7 +361,7 @@ a {
     background-color: #2e2f42;
 }
 
-.container-footer{
+.footer-container{
   text-align: left;
 }
     
